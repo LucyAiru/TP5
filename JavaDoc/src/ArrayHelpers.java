@@ -2,8 +2,14 @@ import java.util.ArrayList;
 
 public class ArrayHelpers {
 
-	//este método ordena los elementos de una lista menor a mayor usando el método de burbujeo.
-	public <T> ArrayList<T> OrdenarAscendente(ArrayList<T> lista) {
+	/**
+     * Este método ordena los elementos de una lista menor a mayor usando el método de burbujeo.
+     * 
+     * @param <T> Clase de los objetos dentro de la lista
+     * @param lista Lista a ordenar.
+     * @return Lista ordenada de menor a  mayor
+     */
+	public static <T> ArrayList<T> OrdenarAscendente(ArrayList<T> lista) {
 		return lista;
 	}
 	
